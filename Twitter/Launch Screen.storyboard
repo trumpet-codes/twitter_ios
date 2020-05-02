@@ -16,12 +16,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="180" translatesAutoresizingMaskIntoConstraints="NO" id="cu4-re-HKx">
-                                <rect key="frame" x="67" y="106" width="240" height="175"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="120" translatesAutoresizingMaskIntoConstraints="NO" id="jNV-u9-XzV">
+                                <rect key="frame" x="127.5" y="273.5" width="120" height="120"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="jNV-u9-XzV" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="2f0-oc-xo0"/>
+                            <constraint firstItem="jNV-u9-XzV" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="asY-80-0xL"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="Bcu-3y-fUS"/>
                     </view>
                 </viewController>
@@ -31,6 +34,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="180" width="180" height="180"/>
+        <image name="120" width="120" height="120"/>
     </resources>
 </document>
